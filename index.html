@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title> C A L C U L A T O R </title>
+    <link rel="icon" type="image/x-icon" href="assets/image/maths.png">
+  </head>
+  <body>
+    <div class="background">
+      <header>
+        <div class="header-left">
+          <img class="header-icon-maths" src="assets/image/maths.png">
+        </div>
+        <div class="header-right">
+          <img class="header-icon-home" src="assets/image/home.png">
+          <img class="header-icon-menu" src="assets/image/open-menu.png">
+        </div>
+      </header>
+      
+    </div>
+    <div class="main">
+      <div class="center">
+        <img src="assets/image/animation_500_kc91uodi.gif">
+      </div>
+      <div class="calculator">
+        <span class="text-area">
+          <p id="result">0</p>
+        </span>
+        <div class="square">
+          <button id="button-delete" onclick="calculator.del()">Delete</button>
+          <button id="button-0" onclick="calculator.zero()">0</button>
+          <button id="button-c" onclick="calculator.clear()">C</button>
+          <button id="button-divide" onclick="calculator.divide()">/</button>
+        </div>
+        <div class="square">
+          <button id="button-7" onclick="calculator.seven()">7</button>
+          <button id="button-8" onclick="calculator.eight()">8</button>
+          <button id="button-9" onclick="calculator.nine()">9</button>
+          <button id="button-%" onclick="calculator.percent()">%</button>
+          <button id="button-multi" onclick="calculator.multi()">x</button>
+        </div>
+        <div class="square">
+          <button id="button-4" onclick="calculator.four()">4</button>
+          <button id="button-5" onclick="calculator.five()">5</button>
+          <button id="button-6" onclick="calculator.six()">6</button>
+          <button id="button-plus" onclick="calculator.plus()">+</button>
+          <button id="button-min" onclick="calculator.min()">-</button>
+        </div>
+        <div class="square">
+          <button id="button-1" onclick="calculator.one()">1</button>
+          <button id="button-2" onclick="calculator.two()">2</button>
+          <button id="button-3" onclick="calculator.three()">3</button>
+          <button id="button-dot" onclick="calculator.dot()">.</button>
+          <button id="button-equal" onclick="calculator.equal()">=</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+          <div>
+            <img class="footer-icon-license" src="assets/image/license.png">
+            <p> Dewi Wulandari . 2020 </p>
+            <img class="footer-icon-glasses" src="assets/image/glasses.png">
+          </div>
+    </footer>
+    <script src="assets/js/calculator.js"></script>
+  </body>
+</html>
