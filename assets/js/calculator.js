@@ -46,8 +46,21 @@ class Calculator {
         this.result += "+";
         this.viewResult();
     }
+    percentage = () => {
+        try {
+            this.result = `${Number(this.result)/100}`;
+        } catch {
+            this.result = this.result
+        }
+    }
     equal = () => {
-        this.result = eval(this.result);
+        let last = this.result.length-1
+        if (this.result[last] === "%") {
+            this.result = this.result.slice(0, -1);
+            this.percentage();
+        } else {
+            this.result = eval(this.result);
+        }
         this.viewResult();
     }
     

@@ -16,49 +16,52 @@
     <div class="background">
       <header>
         <div class="header-left">
-          <img class="header-icon-maths" src="assets/image/maths.png">
+          <a href="#">
+            <img class="header-icon-maths" src="assets/image/maths.png">
+          </a>
         </div>
         <div class="header-right">
-          <img class="header-icon-home" src="assets/image/home.png">
-          <img class="header-icon-menu" src="assets/image/open-menu.png">
+         <a href="#">
+           <img class="header-icon-home" src="assets/image/home.png">
+          </a> 
         </div>
       </header>
       
     </div>
     <div class="main">
       <div class="center">
-        <img src="assets/image/animation_500_kc91uodi.gif">
+        <img src="assets/image/animation_500_kc91uodi.gif" width="15%" id="logo-gif">
       </div>
       <div class="calculator">
         <span class="text-area">
           <p id="result">0</p>
         </span>
         <div class="square">
-          <button id="button-delete" onclick="calculator.del()">Delete</button>
           <button id="button-0" onclick="calculator.zero()">0</button>
-          <button id="button-c" onclick="calculator.clear()">C</button>
-          <button id="button-divide" onclick="calculator.divide()">/</button>
+          <button class="button-lightcoral" id="button-delete" onclick="calculator.del()">Delete</button>
+          <button class="button-lightcoral" id="button-c" onclick="calculator.clear()">C</button>
+          <button class="button-lightcoral" id="button-divide" onclick="calculator.divide()">/</button>
         </div>
         <div class="square">
           <button id="button-7" onclick="calculator.seven()">7</button>
           <button id="button-8" onclick="calculator.eight()">8</button>
           <button id="button-9" onclick="calculator.nine()">9</button>
-          <button id="button-%" onclick="calculator.percent()">%</button>
-          <button id="button-multi" onclick="calculator.multi()">x</button>
+          <button class="button-lightcoral" id="button-%" onclick="calculator.percent()">%</button>
+          <button class="button-lightcoral" id="button-multi" onclick="calculator.multi()">x</button>
         </div>
         <div class="square">
           <button id="button-4" onclick="calculator.four()">4</button>
           <button id="button-5" onclick="calculator.five()">5</button>
           <button id="button-6" onclick="calculator.six()">6</button>
-          <button id="button-plus" onclick="calculator.plus()">+</button>
-          <button id="button-min" onclick="calculator.min()">-</button>
+          <button class="button-lightcoral" id="button-plus" onclick="calculator.plus()">+</button>
+          <button class="button-lightcoral" id="button-min" onclick="calculator.min()">-</button>
         </div>
         <div class="square">
           <button id="button-1" onclick="calculator.one()">1</button>
           <button id="button-2" onclick="calculator.two()">2</button>
           <button id="button-3" onclick="calculator.three()">3</button>
-          <button id="button-dot" onclick="calculator.dot()">.</button>
-          <button id="button-equal" onclick="calculator.equal()">=</button>
+          <button class="button-lightcoral" id="button-dot" onclick="calculator.dot()">.</button>
+          <button class="button-lightcoral" id="button-equal" onclick="calculator.equal()">=</button>
         </div>
       </div>
     </div>

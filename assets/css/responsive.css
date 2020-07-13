@@ -1,0 +1,80 @@
+/* TABLET */
+@media all and (max-width: 1024px){
+    #logo-gif {
+        margin: 15% 0% 2% 0%;
+        width: 30%;
+    }
+
+    .header-left {
+        float: left;
+        width: 50%;
+    }
+    
+    .header-icon-maths {
+        width: 7%;
+    }
+    
+    .header-right {
+        width: 45%;
+    }
+    
+    .header-icon-home {
+    padding: 0% 6% 0% 0%;
+    }
+    
+    #button-\% {
+        padding: 1% 5% -1% 4%;
+    }
+    
+    #button-dot {
+        padding: 1% 6% -1% 5%;
+    }
+    
+    #button-equal {
+        padding: 1% 6% 1% 5%;
+    }
+}
+
+/* HANDPHONE */
+@media all and (max-width: 670px) {
+    #logo-gif {
+        width: 30%;
+    }
+
+    .header-right {
+        width: 40%;
+    }
+
+    .header-icon-home {
+        padding: 4% 6% 0% 0%;
+    }
+
+    #logo-gif {
+        margin: 25% 10% 5% 10%;
+    }
+    
+    button {
+        padding: 2% 6% 3% 6%;
+    }
+
+    .square {
+        font-size: 50%;
+        margin: 1%;
+    }
+
+    #button-delete {
+        padding-right: 14%;
+    }
+
+    #button-\% {
+        padding: 2% 6% 3% 5%;
+    }
+
+    #button-equal {
+        padding: 2% 6% 3% 5%;
+    }
+    
+    #button-dot {
+        padding: 2% 6% 3% 7%;
+    }
+}
